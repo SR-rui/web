@@ -1,6 +1,6 @@
 //
 $.ajaxPrefilter(function(option) {
-    console.log(option.url);
+
     option.url = 'http://ajax.frontend.itheima.net' + option.url
 
     if (option.url.indexOf('/my/') != -1) {
